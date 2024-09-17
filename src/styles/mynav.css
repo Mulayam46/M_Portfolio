@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: aliceblue;
+
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+.menu-list>ul{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    list-style: none;
+   
+}
+.menu-list>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact{
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}

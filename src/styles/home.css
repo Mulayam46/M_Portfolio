@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    height: 88vh;
+    background-color: aqua;
+}
+.hire-me{
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
